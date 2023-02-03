@@ -1,0 +1,76 @@
+html, body {
+  height: 100vh;
+  width: 100vw;
+}
+
+.top{
+  width: 100%;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.topo{
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+h1{
+  font-size: 45px;
+  color: #6c63ff;
+}
+
+.inf{
+  display: flex;
+  flex-direction: column;
+
+  border: 2px solid;
+  border-color: #6c63ff;
+  margin: 1px 320px 1px 320px;
+}
+
+.nome{
+  font-size: 22px;
+  margin-top: 4%;
+  margin-bottom: 4px;
+  margin-left: 50px;
+}
+
+.email{
+  font-size: 22px;
+  margin-left: 50px;
+}
+
+button{
+  margin-top: 5%;
+  margin-left:30%;
+  margin-bottom: 3%;
+  
+  border: #6c63ff;
+  border-radius: 5px;
+
+  padding: 0.5rem;
+  background: #6c63ff;
+
+  color: #ffffff;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.img{
+  width: 100px;
+  margin-top: 50px;
+  margin-left: 30px;
+}
+
+.bottom{
+  width: 100%;
+
+  position: absolute;
+  margin-top: 10%;
+}
